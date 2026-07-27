@@ -245,9 +245,17 @@ h1 {
 }
 
 .privacy-card {
+  display: block;
+  align-self: stretch;
   background:
     radial-gradient(circle at top right, var(--accent-soft), transparent 52%),
     var(--surface);
+}
+
+.privacy-card .feature-copy {
+  width: 100%;
+  align-self: start;
+  padding-top: 0;
 }
 
 .privacy-card .feature-copy {
