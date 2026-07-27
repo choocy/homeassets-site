@@ -3,15 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Home Assets is a private, on-device iOS app for tracking household assets, warranties, QR labels and reports.">
-  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Home Assets is a private, on-device iPhone app for tracking household assets, warranties, QR labels and reports.">
+  <meta name="theme-color" content="#0b0b0c">
+  <link rel="icon" type="image/png" href="assets/app-icon.png">
   <title>Home Assets — Home Inventory for iPhone</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <nav class="container" aria-label="Main navigation">
-      <a class="brand" href="index.html">Home Assets</a>
+      <a class="brand" href="index.html">
+        <img src="assets/app-icon.png" alt="">
+        <span>Home Assets</span>
+      </a>
       <div class="nav-links">
         <a href="privacy.html">Privacy</a>
         <a href="terms.html">Terms</a>
@@ -23,14 +27,13 @@
   <main>
     <section class="container hero">
       <div class="hero-copy">
-        <img class="app-icon" src="assets/app-icon.png" alt="Home Assets app icon">
         <p class="eyebrow">HOME INVENTORY FOR iPHONE</p>
         <h1>Organize and track the things that matter.</h1>
         <p class="intro">
-          Record your household assets, monitor warranties, create QR labels
-          and export useful reports—all in one private, on-device app.
+          Record household assets, monitor warranties, create QR labels and export useful reports
+          from one private, on-device app.
         </p>
-        <div class="trust-row" aria-label="Privacy highlights">
+        <div class="trust-row">
           <span>No account required</span>
           <span>No analytics</span>
           <span>No tracking</span>
@@ -38,18 +41,19 @@
         </div>
         <p class="availability">Coming soon to the App Store</p>
       </div>
-      <div class="hero-visual">
-        <img src="assets/dashboard.png" alt="Home Assets dashboard showing asset totals, values and category charts">
+
+      <div class="hero-preview screenshot-shell">
+        <img src="assets/dashboard.png" alt="Home Assets dashboard">
       </div>
     </section>
 
     <section class="container section">
-      <div class="section-heading compact">
+      <div class="section-heading">
         <p class="eyebrow">KEY FEATURES</p>
-        <h2>Everything you need at a glance.</h2>
+        <h2>See the value of the App in seconds.</h2>
         <p>
-          The most important Home Assets features are grouped below so visitors
-          can understand the App quickly without reading a long specification.
+          The main capabilities are grouped into six simple areas so visitors can understand
+          Home Assets at a glance.
         </p>
       </div>
 
@@ -59,11 +63,13 @@
             <span class="feature-number">01</span>
             <h3>Smart Dashboard</h3>
             <p>
-              See total assets, recorded value, warranty status, categories,
-              rooms and recently added items from one clear overview.
+              View asset totals, recorded value, warranty status, category breakdowns,
+              room summaries and recent additions from one clear screen.
             </p>
           </div>
-          <img src="assets/dashboard.png" alt="Dashboard overview in Home Assets">
+          <div class="card-preview screenshot-shell">
+            <img src="assets/dashboard.png" alt="Dashboard overview">
+          </div>
         </article>
 
         <article class="feature-card">
@@ -71,11 +77,13 @@
             <span class="feature-number">02</span>
             <h3>Detailed Asset Tracking</h3>
             <p>
-              Keep photos, serial numbers, purchase details, room placement,
-              warranty dates, invoices and notes together for each asset.
+              Keep photos, serial numbers, purchase details, placement, warranties,
+              invoices and notes together for every asset.
             </p>
           </div>
-          <img src="assets/asset-list.png" alt="My Assets list in Home Assets">
+          <div class="card-preview screenshot-shell">
+            <img src="assets/asset-list.png" alt="Asset list">
+          </div>
         </article>
 
         <article class="feature-card">
@@ -83,11 +91,13 @@
             <span class="feature-number">03</span>
             <h3>QR & Barcode Tools</h3>
             <p>
-              Every asset receives a unique QR code. Scan labels to open records,
-              scan product barcodes and choose from four QR label layouts.
+              Generate a unique QR code for each asset, scan labels to open records,
+              and capture supported product barcodes.
             </p>
           </div>
-          <img src="assets/asset-qr.png" alt="Asset details and QR code layout in Home Assets">
+          <div class="card-preview screenshot-shell">
+            <img src="assets/asset-qr.png" alt="QR code and asset details">
+          </div>
         </article>
 
         <article class="feature-card">
@@ -95,11 +105,13 @@
             <span class="feature-number">04</span>
             <h3>Batch QR Label Export</h3>
             <p>
-              Generate printable QR sheets with live preview, multiple layouts,
-              custom sizes and presets for popular label printers.
+              Build printable QR sheets with live preview, multiple layouts,
+              custom dimensions and label-printer presets.
             </p>
           </div>
-          <img src="assets/qr-export.png" alt="QR batch export options and preview">
+          <div class="card-preview screenshot-shell">
+            <img src="assets/qr-export.png" alt="QR export preview">
+          </div>
         </article>
 
         <article class="feature-card">
@@ -107,11 +119,13 @@
             <span class="feature-number">05</span>
             <h3>Reports & CSV Export</h3>
             <p>
-              Filter by room, category, warranty, date or price, then export the
-              exact columns you need for Excel, Numbers or another spreadsheet app.
+              Filter by category, room, warranty, date or price, then export
+              only the columns you need.
             </p>
           </div>
-          <img src="assets/reports.png" alt="Asset report showing value and warranty status">
+          <div class="card-preview screenshot-shell">
+            <img src="assets/reports.png" alt="Asset report">
+          </div>
         </article>
 
         <article class="feature-card privacy-card">
@@ -119,8 +133,8 @@
             <span class="feature-number">06</span>
             <h3>Private by Design</h3>
             <p>
-              No sign-up, no ads, no analytics and no tracking. Your asset records,
-              photographs and documents remain on your iPhone.
+              No sign-up, no advertising, no analytics and no tracking.
+              Your records, photos and documents remain on your iPhone.
             </p>
             <ul>
               <li>On-device storage</li>
@@ -133,19 +147,19 @@
     </section>
 
     <section class="container section plans-section">
-      <div class="section-heading compact">
+      <div class="section-heading">
         <p class="eyebrow">PLANS</p>
-        <h2>Start with 10 assets. Upgrade when ready.</h2>
+        <h2>Start free. Upgrade only when you need more.</h2>
       </div>
 
       <div class="plans">
         <article class="plan-card">
           <p class="plan-label">FREE</p>
-          <h3>Core home inventory</h3>
-          <p>Track up to 10 assets with the essential dashboard, QR, search and organisation tools.</p>
+          <h3>Up to 10 assets</h3>
+          <p>Use the core dashboard, asset tracking, QR, search and organisation tools.</p>
           <ul>
             <li>Up to 10 assets</li>
-            <li>Dashboard and asset tracking</li>
+            <li>Dashboard and asset records</li>
             <li>QR creation and scanning</li>
             <li>Search, filters, categories and rooms</li>
           </ul>
@@ -153,8 +167,8 @@
 
         <article class="plan-card featured">
           <p class="plan-label">PRO</p>
-          <h3>Unlimited and fully equipped</h3>
-          <p>Unlock unlimited assets and all premium export, report and attachment features.</p>
+          <h3>Unlimited assets and premium tools</h3>
+          <p>Unlock attachments, batch QR label export, reports and CSV export.</p>
           <ul>
             <li>Unlimited assets</li>
             <li>Invoice image and PDF attachments</li>
@@ -171,11 +185,14 @@
     </section>
 
     <section class="container closing">
-      <h2>Built for people who want a clear record of what they own.</h2>
-      <p>
-        Home Assets combines everyday inventory management with practical QR labels,
-        warranty tracking and professional exports.
-      </p>
+      <img src="assets/app-icon.png" alt="Home Assets app icon">
+      <div>
+        <h2>A clearer way to manage what you own.</h2>
+        <p>
+          Home Assets combines everyday inventory management with practical QR labels,
+          warranty tracking and professional exports.
+        </p>
+      </div>
     </section>
   </main>
 
