@@ -1,10 +1,173 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Support</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Support and frequently asked questions for the Home Assets iOS application.">
+  <meta name="theme-color" content="#000000">
+  <title>Support — Home Assets</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Support</h1>
-    <p>Email: homeassets@icloud.com</p>
+<header>
+  <nav class="container" aria-label="Main navigation">
+    <a class="brand" href="index.html">Home Assets</a>
+    <div class="nav-links">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html" aria-current="page">Support</a>
+    </div>
+  </nav>
+</header>
+<main class="container page-wrap">
+  <section class="support-heading">
+    <h1>Home Assets Support</h1>
+    <p>
+      Need help with the App, a purchase or your locally stored asset records?
+      Start with the answers below or contact us by email.
+    </p>
+  </section>
+
+  <section class="support-grid">
+    <article class="support-card">
+      <h2>Contact support</h2>
+      <p>
+        Email us with a clear description of the issue, your iOS version and the
+        steps that caused the problem. Do not include passwords or payment-card details.
+      </p>
+      <a class="email-button"
+         href="mailto:homeassets@icloud.com?subject=Home%20Assets%20Support">
+        Email homeassets@icloud.com
+      </a>
+    </article>
+
+    <article class="support-card">
+      <h2>Privacy and legal information</h2>
+      <p>
+        Review the <a href="privacy.html">Privacy Policy</a> and
+        <a href="terms.html">Terms of Service</a>. The App also uses Apple’s
+        Standard EULA unless a custom EULA is presented through the App Store.
+      </p>
+    </article>
+  </section>
+
+  <section class="faq">
+    <h2>Frequently asked questions</h2>
+
+    <details>
+      <summary>Where is my asset information stored?</summary>
+      <p>
+        In the current version, asset information is stored locally on your device.
+        Home Assets does not currently provide its own account system or cloud synchronization.
+      </p>
+    </details>
+
+    <details>
+      <summary>Do I need to create an account?</summary>
+      <p>
+        No. The current version does not require a separate Home Assets username or password.
+        Subscription eligibility is verified using Apple’s StoreKit system.
+      </p>
+    </details>
+
+    <details>
+      <summary>How many assets can I create for free?</summary>
+      <p>
+        The intended free version supports up to 10 assets. Home Assets Pro unlocks
+        unlimited asset creation and any other premium features shown in the App.
+      </p>
+    </details>
+
+    <details>
+      <summary>How do I restore a purchase?</summary>
+      <p>
+        Open the App’s Settings or subscription screen and choose
+        <strong>Restore Purchases</strong>. Make sure the device is signed in to the same
+        Apple Account used for the original purchase.
+      </p>
+    </details>
+
+    <details>
+      <summary>How do I cancel my subscription?</summary>
+      <p>
+        On iPhone, open <strong>Settings</strong>, tap your name, choose
+        <strong>Subscriptions</strong>, select Home Assets and follow Apple’s cancellation
+        options. Cancellation normally takes effect at the end of the current paid period.
+      </p>
+    </details>
+
+    <details>
+      <summary>Can you issue a refund?</summary>
+      <p>
+        App Store purchases and refund requests are handled by Apple under Apple’s policies.
+        Use Apple’s official purchase-support process to request a refund where eligible.
+      </p>
+    </details>
+
+    <details>
+      <summary>What happens if Home Assets Pro expires?</summary>
+      <p>
+        The App will not intentionally delete your records merely because Pro expires.
+        If you have more than the free limit, you may be prevented from adding new assets
+        until you renew or reduce your asset count.
+      </p>
+    </details>
+
+    <details>
+      <summary>Will deleting the App delete my assets?</summary>
+      <p>
+        It may. The current version stores information locally, so deleting the App may
+        remove its local data. Device backups or transfer tools may behave differently,
+        but Home Assets does not currently promise cloud recovery. Keep independent copies
+        of irreplaceable documents.
+      </p>
+    </details>
+
+    <details>
+      <summary>Why does the App need camera access?</summary>
+      <p>
+        Camera access is used to scan QR codes. Scanning is performed on the device and
+        camera images are not sent to the developer.
+      </p>
+    </details>
+
+    <details>
+      <summary>Why does the App need photo access?</summary>
+      <p>
+        Photo access is used only when you choose to attach an image to an asset record.
+        Select only the images you want the App to use.
+      </p>
+    </details>
+
+    <details>
+      <summary>Does Home Assets support iCloud sync?</summary>
+      <p>
+        Not in the current version described by these pages. If optional iCloud
+        synchronization is introduced, the App and Privacy Policy will be updated.
+      </p>
+    </details>
+
+    <details>
+      <summary>How should I report a bug?</summary>
+      <p>
+        Email <a href="mailto:homeassets@icloud.com">homeassets@icloud.com</a> with the
+        device model, iOS version, App version, what you expected, what happened and the
+        steps needed to reproduce the issue. Screenshots are helpful when they do not
+        contain sensitive information.
+      </p>
+    </details>
+  </section>
+</main>
+<footer>
+  <div class="container footer-content">
+    <p>© 2026 Home Assets. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+      <a href="support.html">Support</a>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
+
