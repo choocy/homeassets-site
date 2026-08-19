@@ -135,6 +135,37 @@ h1 {
   font-weight: 720;
 }
 
+.store-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.store-row .availability {
+  margin-top: 0;
+  color: var(--muted);
+}
+
+.store-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 0 18px;
+  border-radius: 12px;
+  background: var(--text);
+  color: var(--background);
+  font-size: 15px;
+  font-weight: 760;
+  text-decoration: none;
+}
+
+.store-button:hover {
+  background: var(--accent);
+}
+
 .screenshot-shell {
   position: relative;
   overflow: hidden;
