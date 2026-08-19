@@ -148,22 +148,23 @@ h1 {
   color: var(--muted);
 }
 
-.store-button {
+.store-badge-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 46px;
-  padding: 0 18px;
-  border-radius: 12px;
-  background: var(--text);
-  color: var(--background);
-  font-size: 15px;
-  font-weight: 760;
+  width: 194px;
+  max-width: min(100%, 194px);
   text-decoration: none;
 }
 
-.store-button:hover {
-  background: var(--accent);
+.store-badge-link:hover {
+  opacity: 0.86;
+}
+
+.store-badge {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .screenshot-shell {
